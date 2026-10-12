@@ -112,6 +112,10 @@ Backtest Integrity Guard intentionally does **not** contain:
 
 The goal is to make research assumptions machine-checkable without depending on any particular strategy.
 
+## Interactive integrity lab
+
+[Run the synthetic same-bar execution bias demonstration](examples/integrity-lab/README.md): 12 reproducible trades show a deliberately non-causal fill passing from +15.00 to +3.00 synthetic price units when next-bar execution is enforced. This is a teaching example, **not** a real performance claim.
+
 ## Guides
 
 - [Three backtest integrity failures worth catching before you trust performance](docs/three-backtest-integrity-failures.md)
